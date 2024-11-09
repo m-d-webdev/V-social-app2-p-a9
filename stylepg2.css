@@ -1,0 +1,208 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.father1 {
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+    max-height: 800px;
+    font-size: 16px;
+    overflow: auto;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.father1::-webkit-scrollbar{
+    width: 2px;
+    height: 10px;
+}
+.father1 label {
+    margin: 20px;
+    padding: 10px 5px;
+    position: relative;
+    border: solid 1px transparent;
+}
+.father1 label:hover{
+    border: solid 1px rgba(0, 0, 0, 0.137);
+
+}
+.father1 label .Gp {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.cont-chosq{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    border: solid 1px transparent;
+}
+.cont-chosq:hover{
+    background-color: #9ba1f509;
+    border: solid 1px rgba(0, 0, 0, 0.223);
+}
+.father1 label .pt{
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    opacity: .5;
+    left: 5px;
+    border-bottom: solid 1px transparent;
+    padding: 5px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.father1 label .pt.actvpt {
+    font-size: 16px;
+    font-weight: 900;
+    opacity: 1;
+    border-bottom: solid 1px black;
+    padding: 5px 5px;
+    transform: translateX(10px);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   transition: .2s;
+}
+.father1 .rem:hover{
+    border: none;
+
+}
+.father1 #rem:hover{
+    border: none;
+
+}
+.optionY {
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.opt1 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.167);
+    padding: 8px;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.chooseopt1 {
+    border: solid 1px rgb(48, 12, 255);
+    padding: 8px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: rgb(1, 1, 255);
+}
+
+.n-f {
+    width: 50px;
+    height: 10px;
+    border: solid 3px black;
+    border-radius: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+.adcloblue{
+    background-color: #6666ff;
+    border: solid 3px rgb(133, 155, 255);
+    transition: .3s;
+  
+}
+
+.n-f span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000000;
+    border: solid 1px black;
+    position: absolute;
+    left: 5px;
+    transition: .2s;
+}
+.n-f span.activespa {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: solid 1px rgb(255, 255, 255);
+    position: absolute;
+    transform: translateX(34px);
+    transition: .3s;
+}
+.btn-returndfst{
+    background-color: #ffffff;
+    border: solid 1px rgba(0, 0, 0, 0.268);
+    padding: 2px 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.btn-returndfst:hover{
+    background-color: rgb(250, 194, 194);
+     
+}
+ .imf-fer{
+    width: 30px;
+    transition: .3s;
+}
+
+.rota{
+    transform: rotate(-60deg);
+     transition: .3s;
+}
+
+.bk-frm-frcntr{
+display: flex;
+align-items: center;
+width: 50px;
+background-color: #fff;
+border: none;
+position: absolute;
+top: 5px;
+left: 20px;
+transition: .3s;
+}
+.bk-frm-frcntr img{
+    width: 25px;
+    background-color: #fff;
+    z-index: 2;
+}
+.bk-frm-frcntr:hover{
+    width: 80px;
+}
+.bkP-2{
+ font-size: 15px;
+ font-weight: 900;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ position: absolute;
+ right: 5px;
+ z-index: 1;
+ color: transparent;
+ transition: .3s;
+}
+
+.add-color{
+    color: black;
+}
